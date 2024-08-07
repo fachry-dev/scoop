@@ -102,6 +102,26 @@
 .area-logo{
     color: #ffffff;
 }
+.container{display:inline-block;}
+.text-tittle h1{
+    letter-spacing: 2px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border-right: 5px solid;
+    width: 84vh;
+    white-space: nowrap ;
+    overflow: hidden;
+    animation: 
+        typing 3s,
+        cursor .4s  step-end infinite alternate;
+    }
+    /*cursor blingking*/
+    @keyframes cursor{
+        50% {border-color: transparent;}
+    } 
+    /*typing effect*/
+    @keyframes typing{
+        from {width: 0;}
+    }
 .navbar{
     width: 100%;
     height: 10%;
